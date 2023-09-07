@@ -1,0 +1,176 @@
+:root {
+    --primary-color: grey;
+    --secondary-color: rgb(176, 174, 174);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+i {
+    margin-left: 0;
+    margin-right: auto;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+}
+
+li {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    margin: 10px 5px;
+}
+
+.line-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.line-break {
+    width: calc(100% - calc(100% - 1015px));
+    height: 50px;
+    border-top: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: auto auto;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 30px;
+    margin-bottom: 100px;
+}
+
+.grid {
+    height: auto;
+    overflow: hidden;
+}
+
+.rectangle {
+    width: 300px;
+    height: 150px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.figure-container {
+    height: 50px;
+    display: flex;
+}
+
+.image {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: var(--primary-color);
+    margin: 5px;
+}
+
+.rec1 {
+    width: 200px;
+    height: 15px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    margin: 5px;
+}
+
+.rec2 {
+    width: 125px;
+    height: 15px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    margin: 5px;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    padding: 10px 100px;
+    border: 1px solid var(--secondary-color);
+}
+.card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.card1 {
+    width: 350px;
+    padding-right: 50px;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    margin-bottom: 5px;
+}
+
+.text1 {
+    width: 300px;
+    height: 50px;
+    background-color: var(--primary-color);
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+.text2 {
+    width: 250px;
+    height: 25px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+}
+
+.nav {
+    width: 100px;
+    height: 10px;
+    background-color: var(--primary-color);
+    margin-bottom: 5px;
+}
+
+.socials {
+    width: 100px;
+    height: 10px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+
+.help {
+    width: 100px;
+    height: 10px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+.license-container {
+    width: 465px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+    margin-left: auto;
+}
+.license {
+    width: 70px;
+    height: 7px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+}
